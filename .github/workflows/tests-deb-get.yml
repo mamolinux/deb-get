@@ -1,0 +1,59 @@
+name: deb-get Tests
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - "deb-get"
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+
+          # Dependencies to build the deb
+          # sudo apt-get install build-essential devscripts debhelper -y
+
+          # Dependencies for deb-get itself
+          sudo apt-get install apt apt-transport-https bash coreutils curl dpkg gpg grep libc-bin lsb-release sed software-properties-common sudo wget -y
+
+      - name: Initialize /etc/deb-get
+        run: |
+          sudo mkdir /etc/deb-get
+          echo "deb-get 1 github" | sudo tee /etc/deb-get/installed > /dev/null
+          sudo cp ./01-main/manifest /etc/deb-get/01-main.repo
+          sudo cp -r ./01-main/packages /etc/deb-get/01-main.d
+
+      # All these commands should return a 0 status
+      - name: Test zero status
+        run: |
+          chmod a+x ./deb-get
+          export DEBGET_TOKEN=${{ secrets.GITHUB_TOKEN }}
+          ./deb-get list --raw >/dev/null
+          ./deb-get prettylist >/dev/null
+          ./deb-get csvlist >/dev/null
+          ./deb-get show deb-get >/dev/null
+          ./deb-get help >/dev/null
+          ./deb-get cache >/dev/null
+          ./deb-get version >/dev/null
+          ./deb-get clean >/dev/null
+
+      # update is skipped for now, as it depends on the 01-main subfolder being present
+      # upgrade is skipped because of full system upgrade and otherwise testing package installs
+      # covers most of that. Seperate job/workflow for occassional upgrade validation
+      # say when tagging for release might be good.
+
+      # All these commands should return a non 0 status
+      - name: Test non zero status
+        run: |
+          if ./deb-get install unknown-package; then
+            echo "Installing a unknown package should return a non zero status" >&2
+            exit 1
+          fi

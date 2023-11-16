@@ -1,0 +1,21 @@
+DEFVER=2
+ASC_KEY_URL="https://linux.dropbox.com/fedora/rpm-public-key.asc"
+case "${UPSTREAM_ID}" in
+    debian)
+        case "${UPSTREAM_CODENAME}" in
+            buster)
+                APT_REPO_URL="http://linux.dropbox.com/debian buster main"
+            ;;
+            *)
+                APT_REPO_URL="http://linux.dropbox.com/debian sid main"
+            ;;
+        esac
+    ;;
+    ubuntu)
+        APT_REPO_URL="http://linux.dropbox.com/ubuntu disco main"
+    ;;
+esac
+APT_REPO_OPTIONS="arch=amd64"
+PRETTY_NAME="Dropbox"
+WEBSITE="https://www.dropbox.com/"
+SUMMARY="Securely share, store and do more with your content."
