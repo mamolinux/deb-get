@@ -1,152 +1,2548 @@
-deb-get (0.3.9-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 14 Jun 2023 09:37:23 +0100
-
-deb-get (0.3.8-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 26 Apr 2023 11:08:04 +0100
-
-deb-get (0.3.7-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Fri, 10 Feb 2023 11:59:20 +0000
-
-deb-get (0.3.6-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Mon, 19 Sep 2022 10:13:04 +0100
-
-deb-get (0.3.5-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Sat, 20 Aug 2022 00:52:54 +0100
-
-deb-get (0.3.4-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Fri, 29 Jul 2022 11:07:33 +0100
-
-deb-get (0.3.3-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Sat, 23 Jul 2022 11:35:17 +0100
-
-deb-get (0.3.2-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 20 Jul 2022 09:19:20 +0100
-
-deb-get (0.3.1-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Fri, 15 Jul 2022 12:46:31 +0100
-
-deb-get (0.3.0-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 06 Jul 2022 11:28:18 +0100
-
-deb-get (0.2.9-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Sun, 29 May 2022 15:52:14 +0100
-
-deb-get (0.2.8-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Sat, 28 May 2022 16:29:37 +0100
-
-deb-get (0.2.7-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Thu, 26 May 2022 13:38:53 +0100
-
-deb-get (0.2.6-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 11 May 2022 01:40:31 +0100
-
-deb-get (0.2.5-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Mon, 09 May 2022 17:57:30 +0100
-
-deb-get (0.2.4-1) unstable; urgency=medium
-
-  * New upstream release.
-
- -- Martin Wimpress <code@wimpress.io>  Fri, 06 May 2022 14:49:35 +0100
-
-deb-get (0.2.3-1) unstable; urgency=medium
-
-  * Added Ubuntu Make, InSync, TeamViewer and Tixati.
-
- -- Martin Wimpress <code@wimpress.io>  Mon, 02 May 2022 11:28:36 +0100
-
-deb-get (0.2.2-1) unstable; urgency=medium
-
-  * Added Modern Unix apps and support for Zorin OS
-
- -- Martin Wimpress <code@wimpress.io>  Tue, 26 Apr 2022 13:20:37 +0100
-
-deb-get (0.2.1-1) unstable; urgency=medium
-
-  * Improved Ubuntu derivative support, bug fixes and new app support.
-
- -- Martin Wimpress <code@wimpress.io>  Tue, 26 Apr 2022 10:23:48 +0100
-
-deb-get (0.2.0-1) unstable; urgency=medium
-
-  * Add support for Launchpad PPAs.
-
- -- Martin Wimpress <code@wimpress.io>  Thu, 21 Apr 2022 23:21:49 +0100
-
-deb-get (0.1.5-1) unstable; urgency=medium
-
-  * Correct the get-deb typos and improve 'get-deb list'.
-
- -- Martin Wimpress <code@wimpress.io>  Thu, 21 Apr 2022 11:13:00 +0100
-
-deb-get (0.1.4-1) unstable; urgency=medium
-
-  * Added lots more apps.
-
- -- Martin Wimpress <code@wimpress.io>  Thu, 21 Apr 2022 02:56:57 +0100
-
-deb-get (0.1.3-1) unstable; urgency=medium
-
-  * Fix the self installer/updater.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 20 Apr 2022 22:16:45 +0100
-
-deb-get (0.1.2-1) unstable; urgency=medium
-
-  * Add support for dropbox, powershell and onlyoffice-desktopeditors.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 20 Apr 2022 22:07:44 +0100
-
-deb-get (0.1.1-1) unstable; urgency=medium
-
-  * Add self installer.
-
- -- Martin Wimpress <code@wimpress.io>  Wed, 20 Apr 2022 15:54:07 +0100
+deb-get (0.4.5-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.4.5
+
+  [ silentJET85 ]
+  * fix gotop package
+  * add ganttproject
+
+  [ Phil Clifford ]
+  * chore: align 01-main README with current support
+
+  [ silentJET85 ]
+  * fix(goreleaser-pro): align published version to version in package
+  * fix(mullvad-vpn): align published version to version in package
+  * fix(eversticky): align published version to version in package
+  * add cw-tail
+  * add schildichat-desktop
+  * added package: cudatext
+  * change qownnotes install method
+
+  [ gfactor ]
+  * added freeshow
+
+  [ Phil Clifford ]
+  * fix(peazip): moved to Qt6
+
+  [ silentJET85 ]
+  * add package: ov
+
+  [ Phil Clifford ]
+  * feat: enable plucky support in deb-get
+  * fix(pdfsam-visual): package naming changed.
+    For now take belt and braces approach in case this reverts
+
+  [ silentJET85 ]
+  * fix: accurately detect Debian Sid
+
+  [ Gideon ]
+  * Add Numbat (#1319)
+    * Add Numbat
+
+  [ Enderson Isai ]
+  * fix download link (#1340)
+
+  [ silentJET85 ]
+  * fix elementary-os detection
+
+  [ zero77 ]
+  * add Joplin (#1325)
+    Closes #1303
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * add Xpipe (#1322)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+
+  [ John Schmidt ]
+  * add package: alsa-scarlett-gui
+    closes #1346
+    Signed-off-by: John Schmidt <john@schmidthaus.rocks>
+  * add package: libation
+    closes #981
+    Signed-off-by: John Schmidt <john@schmidthaus.rocks>
+
+  [ zero77 ]
+  * Add Neohtop (#1324)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+
+  [ Ross Smith II ]
+  * fix: lutris: URL is blank (#1352)
+    Fixes:
+    ```
+      [!] ERROR! Missing required information of github package lutris:
+    URL=
+    VERSION_PUBLISHED=
+    ```
+  * fix: neohtop: remove dash in manifest name (#1350)
+    Fixes:
+      [!] ERROR! Missing required information of package neo-htop:
+    DEFVER=
+    PRETTY_NAME=
+    SUMMARY=
+    WEBSITE=
+  * fix; veracrypt: URL is blank (#1354)
+    Fixes:
+    ```
+      [!] ERROR! Missing required information of website package veracrypt:
+    URL=https://launchpad.net/veracrypt/trunk//+download/veracrypt--Ubuntu-24.04-amd64.deb
+    VERSION_PUBLISHED=
+      [!] ERROR! Missing required information of website package veracrypt-console:
+    URL=https://launchpad.net/veracrypt/trunk//+download/veracrypt-console--Ubuntu-24.04-amd64.deb
+    VERSION_PUBLISHED=
+    ```
+  * fix: goreleaser-pro: dpkg: warning: version 'v2.7.0' (#1353)
+    Fixes:
+    ```
+    dpkg: warning: version 'v2.7.0' has bad syntax: version number does not start with digit
+    ```
+
+  [ silentJET85 ]
+  * add package: linux-assistant (#1306)
+    Co-authored-by: silentJET85 <git@jet85.com>
+
+  [ Enderson Isai ]
+  * Add Debian support for ulauncher (#1342)
+    * download ulauncher directly
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+
+  [ silentJET85 ]
+  * fix(gk):slightly changed filename and ignore beta releases (#1371)
+  * update librewolf repo (#1364)
+  * add package: g (#1365)
+  * add package: input-leap (#1366)
+  * add package: davmail (#1367)
+
+  [ Gideon ]
+  * Add marktext (#1376)
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add bruno (#1373)
+  * Add ytdownloader (#1375)
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add dbgate (#1374)
+  * Add beekeeper-studio (#1372)
+
+  [ silentJET85 ]
+  * add package: deskflow (#1379)
+
+  [ Gideon ]
+  * Add spotube (#1318)
+
+  [ silentJET85 ]
+  * add package: museeks (#1380)
+  * add package: helmwave (#1382)
+  * feat: Improve Gitlab support (#1389)
+    * add support for any Gitlab server
+    * only save the .deb URLs
+    * update glab to use simplified CACHE_FILE
+  * feat: add hydralauncher (#1385)
+  * feat: add gifski (#1305)
+
+  [ gfactor ]
+  * feat: add emptyepsilon (#1301)
+
+  [ silentJET85 ]
+  * feat: add  winegui (#1390)
+
+  [ Phil Clifford ]
+  * chore: bump version
+  * chore: remove unsupported interim  releases
+  * chore: remove unsupported interim  releases
+  * chore: add support for questing (25.10)
+
+  [ Ross Smith II ]
+  * fix(gitkraken): empty VERSION_PUBLISHED (fixes #1248)
+  * fix(gitkraken): Replace literal space with regex
+
+  [ Phil Clifford ]
+  * Refine sed expression to avoid unwanted CR
+
+  [ silentJET85 ]
+  * feat(ci) add version test
+  * Update .github/workflows/tests-01-main.yml.
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Update .github/workflows/tests-01-main.yml.
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * fix(mucommander): align published version to version in package
+  * change foliate to Github-release method
+
+  [ Phil Clifford ]
+  * fix: deprecate expressvpn
+
+  [ Ross Smith II ]
+  * docs: Add oracular (24.10) and plucky (25.04) to EXTREPO.md.
+    Per https://github.com/wimpysworld/deb-get/issues/1386
+
+  [ Phil Clifford ]
+  * correct missing formatting
+
+  [ Ross Smith II ]
+  * Remove lunar (23.04) and mantic (23.10)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+
+  [ I have a name ]
+  * Update spotify-client
+    update spotify pubkey
+
+  [ Phil Clifford ]
+  * Rev DEFVER
+  * feat: deprecate yq
+  * Revert "fix: neohtop: remove dash in manifest name (#1350)"
+    This reverts commit cf68295558c08cac7a1309131609495f526a4d2e.
+  * fix: correct name of package and app for NeoHtop
+  * fix: select correct arch
+  * fix(azuredatastudio): handle changed body and version behaviour
+  * fix(jellyfin-media-player): remove arch from jellyfin-media-player
+  * fix: update tonelib products for new site and downloads
+  * adjust version presented to match pattern used in deb packages
+  * docs: add AM to Readme related apps section
+  * docs: add Topgrade and eget to Readme related apps section
+  * feat: add topgrade
+  * fix: libc6 dependency currently limits supported releases
+
+  [ silentJET85 ]
+  * fix(hydralauncher) add support for noble and up
+
+  [ sylvainfaivre ]
+  * fix(koreader): package name scheme (#1400)
+
+  [ silentJET85 ]
+  * add suwayomi-server
+
+  [ Phil Clifford ]
+  * feat: enable forky support in deb-get (#1291)
+    Allow deb-get to run on Debian  14 (Forky) when it is released
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * fix: revert version to 0.4.5.
+    Reverts the version number back to 0.4.5.
+
+  [ Phil Clifford ]
+  * chore: remove extra trixie entry
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:47 +0530
+
+deb-get (0.4.4-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.4.4
+
+  [ Phil Clifford ]
+  * fix(whalebird): revert breakage by 1174.
+    Replace fix for upstream release rename that will still work if they change back and
+    correct derivation of versioning that were lost in merge of #1174.
+    Also retains and extends grep improvements from #1174 and removes a surplus head
+    Supcercedes and closes
+    Closes #1177
+    Co-authored-by: Ross Smith II  <rasa@users.noreply.github.com>
+  * fix: deprecate nala-legacy
+
+  [ Ross Smith II ]
+  * feat: Add Ubuntu oracular (24.10) support
+
+  [ Phil Clifford ]
+  * chore: Nuclear website has moved to nuclearplayer.com
+  * fix: add support for oracular to package defs
+  * feat: remove everything we don't need from github json cache.
+    Avoid cacheing megs of  data we never look at.
+    Since this is no longer json it would be better to rename the cache file
+    and filter before writing, but that needs some refactoring to be
+    achievable
+  * feat: pre-filter the github cache.
+    Since this is no longer json we rename the cache file
+    and filter before writing out
+  * fix(flameshot): use the CACHE_FILE.
+    Changing the filename elsewhere broke this one definition that had not been updated.
+    Also reworked the fallback logic to be more general, without reference to unsupported old releases.
+  * fix(deltachat-desktop): website layout changed
+
+  [ Ross Smith II ]
+  * fix(doublecmd): Add Ubuntu oracular (24.10) support
+  * fix(nordvpn): Fix URL
+
+  [ Gus deMayo ]
+  * Create prospect-mail.
+    Adds Prospect Mail unofficial Outlook client per https://github.com/wimpysworld/deb-get/issues/569
+
+  [ Rubem Pacelli ]
+  * Add noble to `CODENAMES_SUPPORTED`
+
+  [ Ross Smith II ]
+  * feat: Add goreleaser{,-pro}
+  * fix(tribler): Add ARCH support
+
+  [ Phil Clifford ]
+  * refactor: replace unnecessary head-1 behaviour (#1197)
+    * fix(beersmith3): dynamically parse recent versions
+    * fix(deltachat-desktop): website layout changed
+    * fix(doublecmd): Add Ubuntu oracular (24.10) support
+    * refactor: replace unnecessary head-1 behaviour
+    replace pipes to head with grep -m1
+    fix(beersmith3: align beersmith definition to revised website
+    They have split legacy versions off to a second page and redesigned the
+    download page so replace dynamic parsing for now
+    ---------
+    Co-authored-by: Ross Smith II <ross@smithii.com>
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ adixdzx15 ]
+  * fix(syncthing): update apt repo url and use .gpg key file instead of .txt (#1229)
+    * fix(syncthing): update apt repo url
+    * fix(syncthing): change plain text key to GPG key to avoid possible future deprecation
+
+  [ Phil Clifford ]
+  * fix(publii): The cdn link returns 404 so switch to the main release url (#1193)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * fix(tixati): adapt to changed website structure
+
+  [ Ross Smith II ]
+  * fix(webex): add -m 1 to grep to only return latest version
+  * fix(docker-desktop): add head -n 1 to workaround missing LFs in HTML
+
+  [ Phil Clifford ]
+  * fix(tribler): re-do fix that was accidentally reverted
+  * fix(smartgit): They have changed packaging slightly.
+    Introduced seperate ARCH builds and also
+    this aligns the version with what is present in the deb
+    so users do not get spurious updates"
+  * fix(vuescan): remove unneeded concatenation with missing quote.
+    The hard coding is not needed and a lost/omitted quote breaks the definition.
+    Best option is to remove both current and possible future problems.
+
+  [ silentJET85 ]
+  * added ivpn-ui
+  * change install method for indicator-sound-switcher
+  * added eaglemode
+  * fix write permission when updating github cache
+  * add flag to upgrade only deb-get packages
+
+  [ Phil Clifford ]
+  * feat: add slomore
+  * fix(hugo): latest release has no packages for reasons.
+    This removes the latest constraint as they have tagged a source-only version.
+    Now that we trim our cache it may be better to take the cautious approach
+    and stop getting latest tags altogether.
+  * feat: add Filen Desktop
+  * refactor: restore consistent use of CACHE_FILE to definitions
+
+  [ Soulsuck24 ]
+  * Update fastfetch (#1230)
+    add missing arch causing an error on Pi devices.
+
+  [ silentJET85 ]
+  * added musikcube
+
+  [ Phil Clifford ]
+  * feat: add gitkraken cli (gk)
+
+  [ silentJET85 ]
+  * update package templates
+  * fix error when fetching from keyserver
+  * add deskreen
+  * change fsearch method
+  * add gotop
+  * add starcal3
+  * add session-desktop
+  * add mucommander
+  * add haguichi
+  * add gb-studio
+  * add eversticky
+
+  [ Stef Dunlap ]
+  * Remove unused dependency: software-properties-common.
+    Fixes #1215
+
+  [ Ross Smith II ]
+  * chore: Fix shellcheck's SC2086 issues (#903)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:39 +0530
+
+deb-get (0.4.3-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.4.3
+  * style: white space clean up
+
+  [ Marian Gasparovic ]
+  * feat: add yubikey-manager
+
+  [ Ross Smith II ]
+  * flameshot: Fix empty URL on Ubuntu 24.04 (Noble)
+
+  [ Phil Clifford ]
+  * fix: correctly support bookworm and noble for veracrypt
+  * fix: Correctly find version string in updated website design
+  * fix: get latest released deb for micro
+  * fix: get nala key from gitlab
+  * fix: extend deltachat-desktop ARCH support to arm64 and filter
+  * fix: reflect changed release naming of whalebird
+  * feat: add oculante
+  * headless mode grep.
+    Co-authored-by: Ross Smith II <ross@smithii.com>
+  * fewer execs.
+    Co-authored-by: Ross Smith II <ross@smithii.com>
+  * feat: move battery-monitor from PPA to github
+  * fix(bottom): match standard bottom instead of musl version
+  * feat(bottom): add arm support
+
+  [ Ross Smith II ]
+  * fix(whalebird): s/x64/amd64/ (#1174)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Phil Clifford ]
+  * feat: add fedistar (#1167)
+  * feat: add Ente Auth (#1155)
+  * feat: add pet (#1151)
+  * feat: add mullvad-browser (#1149)
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:34 +0530
+
+deb-get (0.4.2-1) stable; urgency=medium
+
+  [ Phil Clifford ]
+  * feat: add ticktick
+  * fix: use unroll_url for ticktick.
+    Remove unneeded app-specific function
+  * chore: bump version to 0.4.2
+  * fix: get latest tagged micro release not the nightly
+  * feat: add picocrypt-gui
+
+  [ Bruno Cabral ]
+  * fastfetch to use HOST_ARCH
+
+  [ Phil Clifford ]
+  * fastfetch has a riscv64 release
+
+  [ Ross Smith II ]
+  * atuin: No longer releases via debs.
+    See https://github.com/atuinsh/atuin/releases and
+    https://github.com/atuinsh/atuin/pull/1525
+  * docker-desktop: Fix version number.
+    As it's no longer in the URL
+
+  [ Phil Clifford ]
+  * feat: add stream-sprout
+  * fix(quickgui): use github instead of PPA
+  * feat: add mqttx
+  * feat: add support for elementary OS
+  * feat: add veracrypt-console
+  * feat: move veracrypt to deb over ppa.
+    Allow installation on Debian and debian-derived OS
+  * fix: deprecate croc croc has not released .debs since 9.6.6.
+    Users need to install 10.0.10 or later via 'curl https://getcroc.schollz.com | bash'
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:32 +0530
+
+deb-get (0.4.1-1) stable; urgency=medium
+
+  [ Marian Gasparovic ]
+  * Remove Exodus wallet.
+  * mark exodus deprecated
+
+  [ Alin Mr ]
+  * 01-main...jc: +
+  * 01-main...jc: clean, fast URL/version extraction.
+    How the code works: from JSON take (via `grep -m1 -o`) the line
+      "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.23.6/jc_1.23.6-1_amd64.deb"
+    1. extract the matching key/value pair, excluding the final dquote.
+    2. remove everything upto and including the first dquote -> URL
+    3. from the URL, remove everything upto & including /download/v
+    4. then remove everything from '/' onwards -> version
+
+  [ Phil Clifford ]
+  * Renamed ms-office-electron as project renamed.
+    Deprecated the old name as existing users will need to install the replacement and remove
+    the old one
+  * Add ActivityWatch
+    requested in #884
+
+  [ zero77 ]
+  * Update manifest
+  * Create nemo-mediainfo-tab
+
+  [ Alin Mr ]
+  * manifest: forgot to add jc
+  * 01-main...jc: anchor URL regex on right too
+  * 01-main..localsend: +
+  * manifest: + localsend
+
+  [ Mark Pitman ]
+  * Remove EULA for mdview.
+    There's no need to accept the license as it's MIT and a no brainer.
+    I had added this because whatever I was using for reference had it. I
+    didn't realize it made the user accept it.
+    Addresses #931
+
+  [ Martin Wimpress ]
+  * chore: delete .github/workflows/greetings.yml.
+    The greetings is not adding much value and just cluttering up comments
+
+  [ Phil Clifford ]
+  * docs: Cog readme and align doc templates with Ubuntu releases (#933)
+    * Update list of supported apps via cog
+    * docs: align EXTREPO templates with ubuntu releases
+    * chore:Update list of supported apps via cog
+  * chore: man page regenerated with latest pandoc
+  * Improve testing (#937)
+    * Add minimal dependency for testing desktop apps
+    * add manifest trigger
+
+  [ Peter Dave Hello ]
+  * Add Ookla official SpeedTest cli client
+
+  [ Ross Smith II ]
+  * feat: Initial support for Termius (fixes #864)
+  * fix: Rename termius to termius-app.
+    Per https://github.com/wimpysworld/deb-get/pull/902#pullrequestreview-1710026726
+  * Add nodejs version 21 (fixes #949)
+  * Add nodejs to manifest
+
+  [ Marian Gasparovic ]
+  * Add ImHex editor.
+  * Fix typo.
+
+  [ Heikki Hokkanen ]
+  * Update sunshine codenames to include debian bookworm
+
+  [ Rubem Pacelli ]
+  * Update protonvpn
+
+  [ Alin Mr ]
+  * 01-main..hyperfine: +
+
+  [ mralusw ]
+  * 01-main..teip: + (#941)
+    Add teip
+    The package uses both 'x86_64' (CPU name) and 'aarch64' (architecture) deb
+    naming schemes; sticking to x86_64 for now
+
+  [ zero77 ]
+  * Update filezilla-theme-papirus (#987)
+    * Update filezilla-theme-papirus
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add Papirus folders
+  * Die engine  Add detectiteasy (Die engine)
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add Popcorn time
+    * Update manifest
+    * Create popcorn-time
+    Apply suggestions from code review
+    Co-Authored-By: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add Emby server
+    * Update manifest
+    * Apply suggestions from code review
+    Create emby-server
+    Co-Authored-By: Phil Clifford <philclifford@users.noreply.github.com>
+  * Update manifest
+  * Update firefox.
+    Update 01-main/packages/firefox
+    Create firefox
+    Co-Authored-By: Phil Clifford <philclifford@users.noreply.github.com>
+
+  [ Ricardo N Feliciano ]
+  * Add OpenTofu
+
+  [ Ross Smith II ]
+  * Fix tonelib-noisereducer (VERSION_PUBLISHED blank) (#1012)
+    * Fix tonelib-noisereducer (VERSION_PUBLISHED blank)
+  * Tweak firefox to mimic other firefox packages (#1017)
+    * Tweak firefox to mimic other firefox packages
+  * Tweak firefox-esr to mimic other firefox packages (#1018)
+    * Tweak firefox-esr to mimic other firefox packages
+  * Add firefox-devedition
+  * Add firefox-nightly
+  * battery-monitor: move to mamolinux/battery-monitor
+
+  [ Himadri Sekhar Basu ]
+  * move battery-monitor releases to launchpad
+
+  [ Ross Smith II ]
+  * Add google-chrome-beta
+  * Update google-chrome-beta
+  * Add google-chrome-unstable
+  * Update google-chrome-unstable
+
+  [ Bruno Cabral ]
+  * fix: skip APP if validate_deb returns false
+
+  [ Alin Mr ]
+  * 01-main: + ripgrep
+
+  [ Ross Smith II ]
+  * Add firefox-beta (#1014)
+
+  [ Bruno Cabral ]
+  * added kse
+  * update obs ppa (#1033)
+    * update obs ppa to official release
+    closes #914 
+    ---------
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * added inkscape
+  * mantic support for atuin
+
+  [ Phil Clifford ]
+  * croc is not producing debs lately (#998)
+    If they don't intend to resume producing debs we will need to deprecate
+  * fix fastfetch (#1007)
+    latest release no longer supports debian <=11 or focal
+    also release naming has changed and and aarch64 build added
+    and repository redirected to fastfetch-cli
+
+  [ KlfJoat ]
+  * docs: improve GitHub PAT explanation
+    * Highlight GitHub PAT requirement in the Install section
+    * Expand, correct, and clarify the API Rate Limit section
+    * Spelling corrections
+
+  [ Phil Clifford ]
+  * updated mergerfs support
+  * Do not zero repo files if wget fails
+
+  [ Himadri Sekhar Basu ]
+  * Add simple-pwgen to deb-get
+    - Provides simple-pwgen from launchpad
+
+  [ Phil Clifford ]
+  * Waydroid have changed supported OS handling
+  * add nekoray
+  * try wines alone
+  * Add MultiMC
+  * Add SongRec.
+    Co-authored-by: camara-tech  <camara-tech@users.noreply.github.com
+
+  [ Ross Smith II ]
+  * Add browsh
+  * Fix VERSION_PUBLISHED to be more forgiving
+  *  browsh: Remove errant architecture
+  * browsh: removeerrant arch
+
+  [ Bruno Cabral ]
+  * option to download oceanaudio using IPv4
+  * use $@ to receive wget options
+  * check if command is actually running in the background
+  * added grub-customizer
+
+  [ Phil Clifford ]
+  * fix: add mantic support
+    presume lunar support extends to mantic
+    optimistic edit to be checked and reviewed
+    then maybe look at debian sid and trixie support
+  * i3 has not been keeping up
+  * add mantic where apparently supported
+  * do wines seperately
+  * Added support for noble also removed rewrite as upstream has removed that too from https://repo.waydro.id/
+  * corrections for current support and presumptive noble suppport added presumptive where upstream suppports LTS well in reasonable timescales
+
+  [ Fuseteam ]
+  * mark teams as de-supported
+
+  [ Ross Smith II ]
+  * Add Ubuntu Noble (24.04) support
+  * detectiteasy: Add CODENAMES_SUPPORTED.
+    Per https://github.com/horsicq/DIE-engine/releases/tag/3.09 (latest)
+  * wraith-master: Disable (for now)
+    As https://github.com/serebit/wraith-master is 404, as it's been moved to gitlab.
+  * openrgb: Fix URLs.
+    The first URL at
+    https://openrgb.org/releases.html
+    is
+    https://openrgb.org/releases/release_0.9/openrgb_0.9_amd64_buster_b5f46e3.deb
+    hence we need xdigit, not digit.
+  * Update openrgb
+  * Update openrgb
+
+  [ Phil Clifford ]
+  * Further additions of noble support
+  * Add initial support for Glab (#947)
+    * Add initial support for Glab
+    * use urlencoded path instead of id
+    * Add get gitlab releases (#8)
+    * added get_gitlab_releases()
+    * failed to filter for supported ARCHS
+    * fix typo
+    ---------
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * feat: added jitsi-meet-electron
+
+  [ dchurch315 ]
+  * added definition for novelwriter
+  * Update manifest to include novelwriter
+  * Added package definition for manuskript
+  * Update manifest for manuskript
+
+  [ Phil Clifford ]
+  * fix: correction of version id for manuskript
+  * fix: adjust stremio to their changed download
+  * Update 01-main/packages/stremio.
+    Thanks - beat me to it!
+    Co-authored-by: George L. Yermulnik <yz@yz.kiev.ua>
+  * feat: added onefetch
+  * Improved version extraction
+  * Improve 01-main/packages/onefetch
+    another fine optimization from @rasa
+  * chore: cogged 01-main/README.md to reflect changes and contributions
+  * fix: bluejeans has been sunsetted by Verizon
+  * fix: bitwig-studio has in-housed downloads
+  * feat(bitwig-studio): Get the redirect URL
+    this provides a URL we(I?) can open in a browser, but deb-get fails
+  * fix: provide output filename to downloader
+  * fix(bitwig-studio): Copy required function into package definition
+    this can be reverted once it is published in a deb-get release
+  * chore: Sort manifest
+  * feat: add dorion
+    closes #1073
+  * chore: update 01-main/README.md to include onefetch and manuskript
+  * fix: Correct description of novelWriter
+  * chore: updated 01-main/packages/README.md
+  * fix: update doublecmd repos with correct debian support
+  * chore(corectrl): remove packages long deprecated
+  * chore(deadbeef): remove packages long deprecated
+  * chore(exodus): remove packages long deprecated
+  * chore(geforcenow-electron ): remove packages long deprecated
+  * chore(igdm-pro): remove packages long deprecated
+  * chore(ms-office-electron): remove packages long deprecated
+  * chore(neovim): remove packages long deprecated
+  * chore(parsec): remove packages long deprecated
+  * chore(picocrypt): remove packages long deprecated
+  * chore(sengi): remove packages long deprecated
+  * chore(ungoogled-chromium): remove packages long deprecated
+
+  [ volitank ]
+  * fix(nala): repo and key not matching upstream changes
+
+  [ Phil Clifford ]
+  * Update 01-main/packages/nala
+  * fix: brave signing key relocated
+  * chore: update 01-main repo README.md some additional applications added and deprecated ones removed
+  * feat: deprecate atuin since they will not be packaging for distros going forward, including debian
+  * fix: correct obsidian version determination Obsidian have adopted the most common version tagging scheme
+  * feat: add ntfy
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.4.1
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:30 +0530
+
+deb-get (0.4.0-1) stable; urgency=medium
+
+  [ Arif Ali ]
+  * [icaclient] Add icaclient and refactor.
+    Resolves: #785
+    Signed-off-by: Arif Ali <arif.ali@canonical.com>
+
+  [ Arnaud Collioud ]
+  * Fix downloads and website urls for Rstudio and Rstudio-server
+
+  [ Phil Clifford ]
+  * fix: fastfetch upstream restructure reflected
+    restructured repo required re-parsing version
+  * Put README changes into usage()
+    otherwise cog will overwrite them
+  * feat: initial support for debian trixie.
+    Simply do not fail outright for anyone on trixie/sid
+
+  [ Arif Ali ]
+  * [files-cli] Add the files-cli deb application.
+    Signed-off-by: Arif Ali <arif.ali@canonical.com>
+
+  [ Ira Abramov ]
+  * subshell context written by AWK misses some variables
+    exporting two more important variables
+
+  [ Arthur Lutz ]
+  * feat(dive): initial metadata into to install dive
+
+  [ Alin Mr ]
+  * deb-get: simplify
+    use simpler constructs, avoid calls to external apps, compact some
+    statements to reduce debugging (-x) output
+  * deb-get: factor out parse_machine
+  * deb-get: quote $var's
+  * deb-get: simplify codename parsing
+  * deb-get: (SC2044) remove 'for' over 'find -printf'
+  * deb-get: guard some [[ $list != *"str"* ]]
+  * deb-get: replace (IFS=$'\n'; echo) with printf
+  * deb-get: replace `echo | cut` with POSIX str ops
+  * deb-get: use `dpkg-query -Wf '${Field}'`
+  * deb-get: use case..esac
+  * deb-get: list --not-installed was quadratic
+  * deb-get: case..esac
+  * deb-get: populating $APPS: simpler, uniform
+  * deb-get: join some exports (less -x output)
+  * deb-get: cache APPNAME2FULL[] map
+  * deb-get: factor out populate_apps
+  * deb-get: lock management in refresh_*
+    Set trap to ensure lock removal; warn if cache locked
+  * deb-get: list_*_apps: optimize (replace for loop)
+    less -x output too
+  * deb-get: remove inexistent curl options.
+    Also remove exports only performed with --quiet; preparing for `eval`
+  * deb-get: replace `| bash -` with `eval`
+  * deb-get: DEPRECATED_*: array-ify from start
+  * deb-get: normalize ACTION from start
+  * deb-get: ensure doas / sudo actuallly work.
+    Could be installed but not configured
+  * deb-get: simplify get_gh URL
+  * deb-get: split big `case $ACTION` into functions
+  * deb-get: move main code after functions()
+  * deb-get: search: fix '-...' patterns
+    use grep -e
+  * deb-get: last commit broke search
+
+  [ Diego Bersanetti ]
+  * Added thinlinc specification file
+  * Updated specifications file name and content for thinlinc-client
+  * Added thinlinc-client to manifest
+  * Updated specifications file
+
+  [ Rahammetoela Toekiman ]
+  * fix architecture check
+    the architectures rustdesk support changed, which broke our check causing the install to fail
+
+  [ zero77 ]
+  * Update manifest
+  * Create alduin
+  * Update manifest
+  * Create jexiftoolgui
+  * Update manifest
+  * Create crow-translate.
+    No open issues
+  * Create exifcleaner
+    https://github.com/wimpysworld/deb-get/issues/667
+  * Update manifest
+  * Update manifest
+  * Create caddy
+
+  [ Ira Abramov ]
+  * set default timeout and verbosity level for wget invocations
+
+  [ Diego Bersanetti ]
+  * Added thinlinc specification file
+  * Updated specifications file name and content for thinlinc-client
+  * Added thinlinc-client to manifest
+  * Updated specifications file
+
+  [ Rahammetoela Toekiman ]
+  * fix architecture check
+    the architectures rustdesk support changed, which broke our check causing the install to fail
+
+  [ zero77 ]
+  * Update manifest
+  * Create alduin
+  * Update manifest
+  * Create jexiftoolgui
+  * Update manifest
+  * Create crow-translate.
+    No open issues
+  * Create exifcleaner
+    https://github.com/wimpysworld/deb-get/issues/667
+  * Update manifest
+  * Update manifest
+  * Create caddy
+
+  [ Martin Wimpress ]
+  * refactor: rebase simplify+optimize
+
+  [ Ross Smith II ]
+  * feat: Add doublecmd-{gtk,qt}
+  * Update doublecmd-gtk
+  * Update doublecmd-qt
+
+  [ zero77 ]
+  * Update manifest
+  * Update fail2ban.
+    Create fail2ban
+
+  [ Mark Pitman ]
+  * Add Markdown View (mdview)
+    mdview is a command line application which formats a markdown file as
+    HTML and launches it in the default web browser.
+    Closes #889
+  * Remove codenames from mdview package def.
+    The example I followed when I initially added this package listed the
+    codenames. This package has no dependencies, so it will work with any
+    Debian or Ubuntu version.
+    Fixes #927
+
+  [ Phil Clifford ]
+  * fix: correct curl options when --quiet
+    moved curl and wget options to long versions
+    fixes #900
+
+  [ Marian Gasparovic ]
+  * Add Thorium browser.
+    Closes #912
+
+  [ Phil Clifford ]
+  * fix: WGET_VERBOSITY restored
+    the refactoring merged the unneeded UPD_WGET_VERBOSITY-> WGET_VERBOSITY
+    but left the (unset) UPD_ variant in the code, resulting in unwanted noise
+
+  [ Ross Smith II ]
+  * docs: Added trixie and mantic to EXTREPO.md
+
+  [ scrufulufugus ]
+  * Add atuin
+
+  [ Phil Clifford ]
+  * latest onlyoffice-desktopeditors release missing assets
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.4.0
+  * feat(ci): add dependabot.yml
+  * feat(ci): add build and publish workflow
+  * fix(ci): invoke apt-get via sudo
+
+  [ dependabot[bot] ]
+  * build(deps): bump actions/checkout from 3 to 4.
+    Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.
+    - [Release notes](https://github.com/actions/checkout/releases)
+    - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+    - [Commits](https://github.com/actions/checkout/compare/v3...v4)
+    ---
+    updated-dependencies:
+    - dependency-name: actions/checkout
+      dependency-type: direct:production
+      update-type: version-update:semver-major
+    ...
+    Signed-off-by: dependabot[bot] <support@github.com>
+  * refactor(ci): simplify the build-release step
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:18 +0530
+
+deb-get (0.3.9-1) stable; urgency=medium
+
+  [ Phil Clifford ]
+  * Updated the 01-main/README.md
+    to reflect changes in release 0.3.8
+
+  [ Galileo Sartor ]
+  * Rename balena-etcher
+  * Update balena-etcher in manifest
+
+  [ Phil Clifford ]
+  * Updated packages with explicit lunar support available
+  * Ensure gpg use of keyserver does not fail
+  * Use API Token
+  * Add support for Mantic Minotaur (23.10)
+  * Add waterfox-g-kde.
+    Closes #799
+  * add dependency kwaterfoxhelper.
+    This needs to be installed first (until we finish re-writing apt entirely)
+    or the main app calls it as a dependency but the repo/key is not trusted
+  * fix jellyfin-media-player.
+    Use UPSTREAM_CODENAME so as to work on Mint and friends
+
+  [ Iain Samuel McLean Elder ]
+  * Fix typo in App Outlet URL
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.3.9
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:10 +0530
+
+deb-get (0.3.8-1) stable; urgency=medium
+
+  [ p4p4j0hn ]
+  * Fixes 658 - add Trilium Notes
+
+  [ Phil Clifford ]
+  * Rename misnamed application
+    sound-switcher-indicator application is actually called indicator-sound-switcher
+  * Contributions added to main repo Readme
+    needed to be re-cogged for release
+
+  [ Iain Samuel McLean Elder ]
+  * Add installer dependencies.
+    Ubuntu Desktop may already include package `lsb-release` and `wget. They are not installed in the official `ubuntu:20.04` container image on DockerHub.
+
+  [ Phil Clifford ]
+  * Correct master-pdf-editor URL.
+    They failed to update their website consistently so we broke,
+    but this forced us to have a better-targeted more focussed
+    search for the download URL
+  * Adjust support for Pi arm systems
+  * strip parameter from unrolled sourceforge url
+  * Remove unwanted echo and correct ARCH
+  * Handle Sourceforge params in unroll_url()
+  * Make update_repos cd quietly
+  * Add --quiet parameter to update action.
+    Reduces feedback output from fetching repo updates.
+
+  [ OMEGARAZER ]
+  * Don't bail on unsupported arch.
+    Adds check for ARCHS_SUPPORTED before bailing validate_deb when arch is unavailable/not supported.
+
+  [ Phil Clifford ]
+  * fix: also respect DEBGET_CACHE_RTN for websites.
+    All for one and one for all.
+  * Virtualbox is not available for non-LTS releases
+  * Restrict some APT repos to supported releases
+  * rstudio server naming updated
+    move the version one - to the right
+
+  [ John Schmidt ]
+  * Missed adding trilium to manifest.
+    Signed-off-by: John Schmidt <john@schmidthaus.rocks>
+
+  [ Phil Clifford ]
+  * stop ferdium getting nightlies
+    or betas.  Adding latest to the github sorts it.
+    So does grep -v
+    Also the version string needed rework
+  * protect validate_debs from unsupported
+  * Add '--only-unsupported' listing
+  * add PDFsam Visual
+  * add PDFsam Basic
+  * Add pomatez.
+    Co-authored-by: takov751 <takov751@users.noreply.github.com>
+  * add i3.
+    Now we can use a keyserver the stable version is possible without
+    having to use the signing key .deb or the tarfile with the key in.
+    They recommend Debian users to avoid their repo and to prefer
+    debian testing. (noted in the package definition).
+  * Add completion options
+  * Fix option handling and feedback
+
+  [ Richard Ayotte ]
+  * feat: add glow app
+
+  [ marosg42 ]
+  * add nuclear
+
+  [ Richard Ayotte ]
+  * fix: reduce summary
+  * fix: user apt repo instead of github download
+  * fix: add apt list name
+
+  [ marosg42 ]
+  * change published version
+
+  [ Marian Gasparovic ]
+  * Add Authy.
+    Issue #790
+
+  [ Phil Clifford ]
+  * tweak Tonelib-Bassdrive wrong version.
+    They send 1.1 but purport to send 1.2.
+    No reponse from upstream so this fixes false updates
+    If they actuall release 1.2 this tweak will need reverting
+    or masking via 99-local
+
+  [ Marian Gasparovic ]
+  * Add Atomic Wallet app.
+  * rename package
+
+  [ Richard Ayotte ]
+  * feat: add Octez (Tezos)
+  * fix: package name
+  * fix: rename package
+
+  [ Phil Clifford ]
+  * Tightened definition for sunshine
+  * Added Publii.
+    Closes #795
+  * Added KOReader.
+    Closes #792
+
+  [ marosg42 ]
+  * Use the correct name.
+
+  [ Phil Clifford ]
+  * make fix use pattern rather than positional cut
+
+  [ John Schmidt ]
+  * Fixes #805 - Add jellyfin-media-player.
+    Signed-off-by: John Schmidt <john@schmidthaus.rocks>
+
+  [ Phil Clifford ]
+  * Deprecate neovim.
+    They have stopped packaging debs
+    https://github.com/neovim/neovim/pull/22773
+  * add Flemozi
+
+  [ marosg42 ]
+  * update to handle new pre-release naming
+
+  [ Marian Gasparovic ]
+  * Add sniffnet.
+
+  [ Daeraxa ]
+  * add pulsar manifest.
+    Add pulsar package
+    Add Pulsar
+
+  [ zero77 ]
+  * Update manifest.
+    Update manifest
+    Update manifest
+    Update filezilla-theme-papirus
+    Update manifest
+    Delete firefox
+    Update manifest
+    Create firefox
+    Update manifest
+    Create filezilla-theme-papirus
+    code-insiders
+    Delete code-insiders
+
+  [ Phil Clifford ]
+  * Revert "Merge remote-tracking branch 'origin/add-flemozi' into all-additions"
+    This reverts commit b9889e55437b455f32a28de33c70fbd8b8107d6d.
+
+  [ Martin Wimpress ]
+  * chore: bump version to 0.3.8
+  * chore: update changelog
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:08 +0530
+
+deb-get (0.3.7-1) stable; urgency=medium
+
+  [ kz6fittycent ]
+  * Added Bashtop/Bpytop PPA
+
+  [ Natan Junges ]
+  * Move user includes to /etc/deb-get/local.d/
+  * Update README.md
+  * Build list of apps from builtin functions, repos and local includes
+  * Update print_etc_overrides to work with the new lists
+  * Update README.md
+  * Update CONTRIBUTING.md
+  * Update the rest of the script to work with the new lists
+  * Fix order of apps and optimize validate_deb
+  * Fix app name in list_local_apps and suppress errors from sourced files in validate_deb
+  * Add repository information to info_deb
+  * Add option to prettylist and csvlist to choose a repo
+  * Add 01-main when not present and initialize repositories when running update
+  * Optimize APPS generation and retrieval
+  * Statically generate array INSTALLED_APPS at initialization
+  * Add update_repos
+  * Update CONTRIBUTING.md
+  * Update README.md
+  * Update CONTRIBUTING.md
+  * Update README.md
+  * Update README.md
+  * Update CONTRIBUTING.md
+  * Create EXTREPO.md
+  * Update EXTREPO.md
+  * Update CONTRIBUTING.md
+  * Update README.md
+  * Call optimized version of list_debs whenever possible
+  * Update README.md
+  * Add bash completion for deb-get
+  * Update install
+
+  [ natanjunges ]
+  * Add option --repos-only to update, validate option passed to list, add postinst and postrm maintainer scripts
+  * Fetch deprecated packages in update_repos, detect installed deprecated packages and warn user about them, allow deprecated packages to be removed/purged
+  * Prefix deprecated packages with deprecated_, make deprecated packages usable
+
+  [ Natan Junges ]
+  * Only get the latest (stable) GitHub release of Rambox
+  * Dearmor ascii apt keys and apply them to their repositories instead of globally
+  * Update CONTRIBUTING.md
+  * Treat PPAs as regular apt repositories
+
+  [ Christian Wagner ]
+  * added Vagrant
+
+  [ Luis Lavena ]
+  * Add Cosign (#530)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ silentJET85 ]
+  * allow AppimageLauncher to be installed in Debian (#521)
+
+  [ Lefteris Garyfalakis ]
+  * Add Limoji (#517)
+
+  [ Natan Junges ]
+  * Fix vagrant to work with new package definition standard (#535)
+  * Add missing gpg dependency (#538)
+
+  [ natanjunges ]
+  * Add command fix-installed, add postinst script to call fix-installed every deb-get upgrade
+
+  [ kz6fittycent ]
+  * Added Wraith-Master to list of debs
+  * Removed Bashtop PPA entry.
+    Unneeded. 
+  * Update README for Wraith-Master
+  * Update README - removed all entries but Wraith-Master
+  * README PR was incorrectly done
+
+  [ Natan Junges ]
+  * Update README.md
+
+  [ Phil Clifford ]
+  * Added: nala (and nala-legacy) (#436)
+    * Added nala (and nala-legacy)
+    * Update README.md
+    Co-authored-by: Natan Junges <natanajunges@gmail.com>
+  * Add draft manpage
+  * remember to remove user includes before cogging.
+    Actually, in future it would be better to point the man reader to
+    a URL or API giving the repository list of
+    currently-supported packages ... one day
+
+  [ natanjunges ]
+  * Print error messages to stderr
+
+  [ Natan Junges ]
+  * Make deb-get executable in test workflow
+
+  [ Phil Clifford ]
+  * fix: Extend test coverage on basic commands
+
+  [ natanjunges ]
+  * Fix logic error in validate_deb
+  * Remove unnecessary subshells
+
+  [ Phil Clifford ]
+  * add <list of packages> note to relevant commands
+
+  [ Yannick Mauray ]
+  * feat: added Tabby
+  * fix: changed based on @philclifford comment.
+
+  [ Salman Anwer ]
+  * Add Quarto (#479)
+    * Feat: Add Quarto
+    * Fix: Naming to Match Dev Naming
+    * Fix: Revert Package Naming
+    * Add Supported Archs
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Phil Clifford ]
+  * fix hugo to reflect changed naming and architecture support (#564)
+
+  [ natanjunges ]
+  * Fix typo
+  * Move pertinent documentation to 01-main subfolder
+
+  [ Phil Clifford ]
+  * correct typo in postinst to pacify shellcheck
+
+  [ natanjunges ]
+  * Update manpage
+
+  [ Phil Clifford ]
+  * added new packages to list in man page (#566)
+
+  [ natanjunges ]
+  * Move package metadata to 01-main
+  * Update GitHub Releases cache when action is fix-installed, supply full app name to validate_deb when action is update or fix-installed, fix path to install manpage, do not try to install packages in postinst script
+  * Greatly improve the fix-installed command, remove APT_LIST_NAME, store information of installed packages in a file
+  * Fix minor bugs
+  * Fix another minor bug
+  * Another minor bug
+  * Initialize /etc/deb-get/installed with deb-get, remove unsupported packages from /etc/deb-get/installed when running update or fix-installed
+  * Only show message about JSON being updated when it actually is in get_github_releases, add "--no-use-server-timestamps" option to wget in get_github_releases so it works as expected
+  * Remove EOL "impish" UPSTREAM_CODENAME, remove unsupported architectures, update EXTREPO.md
+
+  [ Natan Junges ]
+  * Split tests (#4)
+
+  [ natanjunges ]
+  * Don't suppress output when installing packages in test-01-main
+
+  [ Martin Wimpress ]
+  * Add Hacktoberfest 2022 mini-event documentation #579
+  * Sign-post the Hacktoberfest mini-event
+  * Improve template description for the mini-event
+
+  [ natanjunges ]
+  * Reintroduce "APT_LIST_NAME" as optional, properly detect when package installation fails, check for "DEFVER" in validate_deb
+  * Detect errors and fail as soon as possible when installing package
+
+  [ Yannick Mauray ]
+  * dev: added quickobs
+
+  [ Phil Clifford ]
+  * Filter for HOST_ARCH.
+    They added arm support so multiple debs and versions broke us
+  * One too many eligible projects.
+    Much as I love recursion:  see recursion I think this project already
+    mentions itself as an installation option so ...
+  * Also Deborah
+  * Make the list a checklist (#582)
+    to help save contributor time/effort where someone else got there first
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Moved lutris to github (#583)
+    * Moved lutris to github
+    PPA deprecated and removed by upstream
+    fixes #577
+    * extend arch support
+    possibly more
+  * Added Virtualbox 7.0
+
+  [ natanjunges ]
+  * Support post-install functions
+  * Properly handle list file and keyring of 1password
+  * Remove unused list file and keyring after installing azuredatastudio
+  * Properly handle list file and keyring of brave-browser
+  * Properly handle list file and keyring of code
+  * Fix package name of deadbeef
+  * Properly handle list file and keyring of google-chrome-stable
+  * Properly handle list file and keyring of google-earth-pro
+  * Properly handle list file and keyring of insync
+  * Properly handle list file and keyring of keybase
+  * Fix lens URL
+  * Properly handle list file and keyring of microsoft-edge-stable
+  * Add support to arm64 for mullvad-vpn
+  * Split nala and nala-legacy by supported codenames
+  * Fix onlyoffice-desktopeditors URL
+  * Fix openrgb URL and version
+  * Properly handle list file and keyring of opera-stable
+  * Handle noninteractive mode in eula
+  * Deprecate picocrypt as it is not packaged as deb anymore
+  * Properly handle list file and keyring of plexmediaserver
+  * Properly handle list file and keyring of skypeforlinux
+  * Add supported codenames to stremio
+  * Properly handle list file and keyring of teams
+  * Properly handle list file and keyring of vivaldi-stable
+
+  [ Phil Clifford ]
+  * Move lutris from removed PPA to Github (#5)
+
+  [ natanjunges ]
+  * Properly handle list file and keyring of wavebox
+  * Fix webex version
+  * Deprecate parsec as it does not have a reliable means to dynamically determine the current upstream published version
+  * Properly handle list file of keybase
+
+  [ Phil Clifford ]
+  * Added quickobs (#7)
+
+  [ natanjunges ]
+  * Replace direct download with apt repository for dropbox
+  * Replace direct download with apt repository for spotify-client
+  * Replace direct download with apt repository for teamviewer
+  * Properly fetch url of mullvad-vpn
+  * Remove each package after tested in tests-01-main
+
+  [ Phil Clifford ]
+  * Add Virtualbox 7.0 (#8)
+  * align virtualbox APT_LIST_NAME
+
+  [ natanjunges ]
+  * Remove "APT_LIST_NAME" from virtualbox
+  * Add "arch" repo option to weechat
+  * Update README of 01-main
+  * Tell contributors to not update manually "README.md" in 01-main
+
+  [ Phil Clifford ]
+  * Update HACKTOBERFEST-2022.md.
+    Check off `dust`and remind @takov751 he needs to add a link to his merged `zenith` contrib here too ;-)
+  * du-dust PR merged
+
+  [ David Rhoads ]
+  * Check PR box for Azure Data Studio
+
+  [ Phil Clifford ]
+  * Fix system monitoring center version detection (#9)
+
+  [ Martin Wimpress ]
+  * Fix removing deprecated packages, such as parsec, that do not have version information.
+  * Make shellcheck happier
+  * Add support for Lunar Lobster (23.04)
+  * Ensure $REPO.d directory is created
+  * Add braces around variables
+  * Use == for string comparisons
+  * Minor function definition code style tweaks
+  * Minor APPS generation refactor; for readability
+  * Correct wraith-master
+
+  [ Natan Junges ]
+  * Clarify that updating 01-main/README is only meant to be done by maintainers
+
+  [ Martin Wimpress ]
+  * Update incrementers to keep shellcheck happy
+  * Make shellcheck happier with double quoting and echo removal
+
+  [ Flashwalker ]
+  * Optimisation of apt update: update only added repo during install action (#657)
+
+  [ David Rhoads ]
+  * Tick Box for GitHub desktop and Hugo (#626)
+    * tick box for GitHub Desktop
+    * check box for hugo PR
+    * update hacktoberfest-2022.md
+
+  [ Phil Clifford ]
+  * Align Makefile destination to packaging.
+    So that anyone who uses that doesn't end up on a limb
+    Better for the end-users' wellbeing
+
+  [ Natan Junges ]
+  * Filter out unsupported packages in list (#635)
+    * Filter out unsupported packages in list
+    * Fix ACTION when calling list_debs on error
+    * Only try to install supported packages in tests-01-main
+    * Perfomance recovery through caching supported apps (#14)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Cache website package metadata like GitHub ones (#636)
+    * Cache website package metadata like GitHub ones
+    * Use CACHE_FILE
+    * was leaving html caches in place (#13)
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Phil Clifford ]
+  * Fix flameshot to use jammy release until kinetic is built (#627)
+    * jammy version works fine and will upgrade when kinetic is built
+    * fixed to work with debian too
+    * But lets not break jammy when kinetic arrives
+  * Fix Mattermost Desktop URL.
+    They seem to have updated their release info so a viable URL was lost.
+    This fixes it until the next change
+  * filter release candidates from anitmicrox
+  * Changed to get version published correctly
+
+  [ miGii ]
+  * Add Home Assistant supervised installer and os-agent (#642)
+    * Add Home Assistant supervised installer and os-agent
+    * Removed README changes and ARCHS_SUPPORTED var
+
+  [ silentJET85 ]
+  * add Cronopete
+  * add usbimager
+  * add Headset
+  * add onedriver
+  * add Iriun Webcam
+
+  [ Nicolas Gilles ]
+  * Add FrostWire
+  * Add sunshine.
+    Sunshine is an nVidia gamestream host.
+  * Add DeskCut
+
+  [ silentJET85 ]
+  * add Unified Remote Server (#646)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Rahammetoela Toekiman ]
+  * add Master pdf editor 5 (#650)
+    * add Master PDF editor 5
+    * add master-pdf-editor to the manifest
+    * optimize url get function
+    * added DEFVER
+    * align package name
+    Co-authored-by: Xmetalfanx <Xmetalfanx@yahoo.com>
+
+  [ Phil Clifford ]
+  * Added rstudio-server
+
+  [ silentJET85 ]
+  * add MediathekView
+
+  [ Phil Clifford ]
+  * Re-submission of rstudio fix for move to posit.io (#676)
+    * Re-submission of rstudio fix for move to posit.io
+    * adapted rstudio desktop and server to website cache
+
+  [ Natan Junges ]
+  * Simplify GitHub Releases packages (#637)
+    * Simplify GitHub Releases packages
+    * Update example of get_github_releases
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * Make deb-get executable again
+
+  [ Phil Clifford ]
+  * pick correct beersmith version for release (#633)
+  * Add winehq Wines (#632)
+    * Add winehq Wines
+    * remove i386 from arch list
+
+  [ Martin Wimpress ]
+  * Remove Hacktoberfest 2022 mini-event from README
+
+  [ Phil Clifford ]
+  * Fix version and URL extraction (#628)
+    More upstream twiddling accomodated
+
+  [ natanjunges ]
+  * Fix merge of 636 and 637
+
+  [ Natan Junges ]
+  * Reference count sources list files so packages that share repositories work together nicely (#643)
+    * Count references when repository already exists
+    * Unify repositories of packages
+    * Use /etc/deb-get/aptrepos to count references
+    * Remove deb-get prefix from APT_LIST_NAME of chronograf, influxdb, influxdb2, influxdb2-cli, kapacitor, nomad, sublime-merge, sublime-text, telegraf, terraform and vagrant
+    * Properly fetch count, properly remove entry, silence tee in remove_repo and add_apt_repo
+    * Add command line option --remove-repo for remove and purge
+
+  [ Phil Clifford ]
+  * Missing dependencies mean adjusting debian support (#678)
+
+  [ natanjunges ]
+  * Remove ETags support in update_repos, as it greatly degrades performance
+
+  [ Mikael Bak ]
+  * Add IPFS Desktop (#624)
+    * Add IPFS Desktop
+    * Update call to get_github_releases in ipfs-desktop
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+    * Use CACHE_FILE in ipfs-desktop
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+    * Remove default ARCHS_SUPPORTED in ipfs-desktop
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+    Co-authored-by: Natan Junges <natanajunges@gmail.com>
+    Co-authored-by: Phil Clifford <philclifford@users.noreply.github.com>
+  * Add Git Credential Manager (#621)
+    * Add Git Credential Manager
+    * fix package name
+    * fix order in manifest
+    * Update use of get_github_releases, use CACHE_FILE, remove default ARCHS_SUPPORTED, remove empty EULA
+    Co-authored-by: Natan Junges <natanajunges@gmail.com>
+  * Add LibreOffice Fresh (#620)
+    * Add LibreOffice Fresh
+    * fix package name
+    * Remove empty EULA
+    Co-authored-by: Natan Junges <natanajunges@gmail.com>
+
+  [ natanjunges ]
+  * Revert apt/ppa list names to their canonical form, remove postinst cleanups, default APT_LIST_NAME to "${APP}"
+
+  [ Phil Clifford ]
+  * Add croc
+  * Protect find from wildcard expansions
+  * Fix flameshot again (#687)
+    * jammy version works fine and will upgrade when kinetic is built
+    * fixed to work with debian too
+    * But lets not break jammy when kinetic arrives
+
+  [ Andreas Angerer ]
+  * Adds Ferdium Fixes #426
+
+  [ Martin Wimpress ]
+  * Remove .txt files when cleaning the cache
+  * White space clean up
+  * Remove references to postinst functions.
+    Running postinst function is no longer required since this commit: https://github.com/wimpysworld/deb-get/commit/bb8d8338a08357b7cad0f668f85282f4ebd91ed1
+
+  [ Phil Clifford ]
+  * change mergerfs to show jammy release to kinetic (#694)
+    * changed mergerfs to pull all releases as latest is source-only
+    ATTN: this also uses the available jammy release on kinetic so we don't break
+    it works for me, but ymmv - and you may prefer not to do this
+    * latest works again now assets have arrived
+  * add fastfetch (#696)
+  * also filter insomnia alpha releases (#700)
+    after recent transient breakage
+
+  [ dombean ]
+  * Add Veracrypt
+  * Changed Veracrypt Website
+  * Add Sound Switcher Indicator (#706)
+    * Add Sound Switcher Indicator
+    * Changed Sound Switcher Indicator Website
+
+  [ Phil Clifford ]
+  * fixed frostwire
+    we cannot use latest when they are releasing various things in the one repo
+  * correction of small message typo
+  * add makedeb (#720)
+    Co-authored-by: pirate486743186 <pirate486743186@users.noreply.github.com>
+    Co-authored-by: pirate486743186 <pirate486743186@users.noreply.github.com>
+  * Add ToneLib apps (#722)
+    * added ToneLib Zoom
+    * added ToneLib Freeware
+    * added ToneLib non-free
+  * Add bash completion to Makefile
+
+  [ Patrice Duroux ]
+  * add Agena (#713)
+  * do not quote ${ELEVATE} here (#721)
+
+  [ Phil Clifford ]
+  * fix for spotify-client key rotation
+  * Added media-downloader (#725)
+    * Added media-downloader
+    * adjust codenames if user choses to try jammy release on kinetic
+    * Strictly respect packager support
+  * Fix insync key removal using keyID fetch (#731)
+    * Stop insync key change breaking tests
+    * Updated to use Key ID
+    Now depends on #741 being merged
+  * Facilitate fetching apt signing key from keyserver by ID.
+    Signed-off-by: Phil Clifford <philip.clifford@gmail.com>
+  * added tarsnap
+  * no heavy cacheing
+    squashed out cacheing overload
+    should include
+     - supported app accelleration
+     - tunable retention time
+     - tar-based repo update
+
+  [ Galileo Sartor ]
+  * Add JupyterLab Desktop package (#743)
+
+  [ Martin Wimpress ]
+  * Quote file paths in refresh_supported_cache_lists() and correct indentation
+  * Clearly WARN where operations fail due to attempts to unnecessarily pre-cache uninstalled applications
+  * Bump version to 0.3.7
+  * Release 0.3.7
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:06:03 +0530
+
+deb-get (0.3.6-1) stable; urgency=medium
+
+  [ Phil Clifford ]
+  * tiny typo and markdown tweak
+  * Add reminder to move  customer includes aside.
+    So as not keep adding WIP additions to the README by accident when
+    trying to submit a PR
+
+  [ Natan Junges ]
+  * Fix REDIR_URL in deadbeef
+  * Fix UPSTREAM_CODENAME for some Debian-derived distros.
+    To handle custom `VERSION_CODENAME`s, it first looks for `DEBIAN_CODENAME`.
+
+  [ Mandy Schoep ]
+  * Add neovim
+
+  [ Phil Clifford ]
+  * Added du-dust
+
+  [ Yannick Mauray ]
+  * feat: added Deborah
+
+  [ Phil Clifford ]
+  * ffix small typo
+
+  [ takov751 ]
+  * Add Teams-for-linux
+
+  [ Natan Junges ]
+  * Fix UPSTREAM_CODENAME for Debian 12+
+    Replace fatal with warn message when OS_ID is not supported, fallback to /usr/lib/os-release when /etc/os-release is not available, improve parsing of ID_LIKE, fallback to /etc/debian_version when neither UBUNTU_CODENAME, DEBIAN_CODENAME nor VERSION_CODENAME is found in os-release
+
+  [ chriswayg ]
+  * added SmartGit (#516)
+    * added smartgit
+    * added smartgit
+
+  [ Doug Masten ]
+  * Add Weylus (#439) (#493)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ pirate486743186 ]
+  * no error if cache already empty (#475)
+    Co-authored-by: pirate486743186 <>
+
+  [ Mandy Schoep ]
+  * Add google-cloud-cli gcloud-sdk (#500)
+
+  [ takov751 ]
+  * Add helio-workstation (#524)
+
+  [ Martin Wimpress ]
+  * Make shellcheck happy
+  * Bump version to 0.3.6
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:44 +0530
+
+deb-get (0.3.5-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * Recog README.md
+
+  [ Phil Clifford ]
+  * Add VirtualBox 6.1 (#396)
+    * Add VirtualBox
+    Working although questions remain on setting the correct codename
+    and also around the repository signing key
+    * Fix key and cog README
+    * Changed app name to include 6.1
+    Also removed signed-by which fixed the error
+    * Correct repo target is UPSTREAM_CODENAME
+    Confirmed working on all test distros
+
+  [ Natan Junges ]
+  * Add contributing guidelines (#398)
+    * Create CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+    * Update README.md
+    * Update README.md
+    * Update CONTRIBUTING.md
+    * Update deb-get
+    * Update CONTRIBUTING.md
+    * Update CONTRIBUTING.md
+
+  [ Xmetalfanx ]
+  * removed extra doublequotes in Streamio function
+
+  [ Rahammetoela Toekiman ]
+  * "simplify" alternative install instructions
+    many people are not aware they can install deb files with apt so this change
+    - links them directly to the latest release
+    - encourages the user to install the downloaded deb file with apt
+
+  [ Natan Junges ]
+  * Update deb-get
+  * Update README.md
+
+  [ Phil Clifford ]
+  * Fixes #443
+
+  [ Natan Junges ]
+  * Improve regexes of grep and sed (#408)
+    * Update deb-get
+    * Update deb-get
+
+  [ Xmetalfanx ]
+  * Added RetroArch
+
+  [ Xmetal ]
+  * Added Pulse SMS Desktop Client (#417)
+    Closes https://github.com/wimpysworld/deb-get/issues/41
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Nicolas Sosa ]
+  * Added nomad
+
+  [ Galileo Sartor ]
+  * Add Neo4j and Qownnotes (#451)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Natan Junges ]
+  * Grep the URL of the latest version of bitwig-studio from the download website
+
+  [ Eric Nantz ]
+  * add soundux installation (#432)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Galileo Sartor ]
+  * Install correct versions of rstudio for jammy/focal (#450)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Marian Gasparovic ]
+  * Add Min Browser.
+    Closes #438
+
+  [ Douglas Hitchcock ]
+  * fix mergerfs saying there's an update when there's not. (#441)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Phil Clifford ]
+  * Add feature to use PAT with GitHub.
+    This extends rate-limiting limit for update/install of GitHub releases
+    for users who can authenticate with a PAT
+
+  [ Luis Lavena ]
+  * Add Plow
+
+  [ Galileo Sartor ]
+  * Add TeXworks and Lens
+
+  [ Martin Wimpress ]
+  * Bump version to 0.3.5
+  * Update build to 0.3.5
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:42 +0530
+
+deb-get (0.3.4-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * Filter out altui releases of Ludo
+  * Fallback to ID_LIKE is ID is not debian or ubuntu
+
+  [ Musical Coder ]
+  * Add mullvad vpn client. Close #43 (#364)
+    * adding appimagelauncher
+    * added appimagelauncher
+    * remove changes I maid that were out of scope
+    * fix #43 - added mullvad vpn
+    * adding retroarch app
+    * removing retro arch
+    * removed retro arch in readme
+
+  [ Natan Junges ]
+  * Properly handle PPAs on distros that are not derived from Ubuntu (#387)
+
+  [ Martin Wimpress ]
+  * Update README
+  * Fix docker-desktop URL
+  * Fix typo
+  * White space clean up
+
+  [ Mandy Schoep ]
+  * Add tests and return non zero exit code when failed to install package (#378)
+    * Add tests
+    * Run tests on push for now
+    * Non zero exit status when no package is installed
+    * Disable testing firefox-esr because it fails
+    * Disable testing obs-studio for now
+    * Test non zero status as well
+    * Tests only on pull request
+    * set -x in tests
+    * show obs-studio installation output
+    * Run deb-get update first in tests
+    firefox-est and obs-studio now install properly!
+
+  [ Fuseteam ]
+  * fix missing public key error
+
+  [ Martin Wimpress ]
+  * Bump version to 0.3.4
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:40 +0530
+
+deb-get (0.3.3-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * Only fallback to ID_LIKE if ID was not available in /etc/os-release. Close #365
+
+  [ Yannick Mauray ]
+  * Added "bottom" (#368)
+  * Added "Tribler" (#369)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Diogo Constantino ]
+  * Heredoc help (#372)
+    * Better way to format help
+    * improved formatting to patch previous
+    Co-authored-by: DiogoConstantino <diogoconstantino@ubuntu.com>
+
+  [ Phil Clifford ]
+  * attempt generic parameter solutions (#373)
+
+  [ Yannick Mauray ]
+  * Fixed : audiorecorder => audio-recorder (#376)
+    * Fixed : audiorecorder => audio-recorder
+    * Forgot to update the README.md ... again....
+
+  [ Rahammetoela Toekiman ]
+  * add waydroid (#320)
+
+  [ Martin Wimpress ]
+  * Update Bitwarden published version. Close #374
+  * Update Waydroid
+  * Add Debian support for mergerfs. Closes #375
+  * White space clean up
+  * Update README
+  * Minor refactor of install_ppa()
+  * Bump version to 0.3.3
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:38 +0530
+
+deb-get (0.3.2-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * UPdate the README with Debian support
+
+  [ Matt Miller ]
+  * Clean should purge the cache directory so that deb-get can update itself (#326)
+    * Clean should purge the cache directory so that deb-get can update itself
+    * Add back removal of any saved .deb files
+
+  [ Martin Wimpress ]
+  * Update README
+
+  [ Dan Guevarra ]
+  * Support Ubuntu and Debian-derived OS using ID_LIKE in /etc/os-release (#343)
+    * Support Ubuntu and Debian-derived OS using ID_LIKE in /etc/os-release
+    * Revert end of case correction.
+
+  [ Phil Clifford ]
+  * Fix small syntax error (#345)
+
+  [ Xmetal ]
+  * Strawberry PPA code update (#346)
+    - Fix for https://github.com/wimpysworld/deb-get/issues/331
+
+  [ Yannick Mauray ]
+  * Added : output list of available software in CSV format (#349)
+    * Added : output list of available software in CSV format
+    * Updated documentation
+    * Forgot README.md
+
+  [ Phil Clifford ]
+  * Add Debian sid (unstable) as supported version (#358)
+
+  [ Yannick Mauray ]
+  * Fixed : New URL for GitKraken (#363)
+
+  [ Musical Coder ]
+  * deb-get: add AppImageLauncher ppa (#353)
+    * adding appimagelauncher
+    * added appimagelauncher
+    * remove changes I maid that were out of scope
+
+  [ Phil Clifford ]
+  * fix tailscale debian compatibility (#361)
+  * tweak debian codename string (#357)
+    There is no DEBIAN in os-release on debian
+
+  [ Martin Wimpress ]
+  * Create .deb package with gzip compress. Close #350
+  * Bump version to 0.3.2
+  * Make shellcheck happy
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:36 +0530
+
+deb-get (0.3.1-1) stable; urgency=medium
+
+  [ Adam Collard ]
+  * `deb-get help` shouldn't exit with a non-zero return code
+
+  [ Dreamcat4 ]
+  * readme: user includes feature
+  * readme: small typo
+  * readme: user includes - improve readability (a bit less waffle)
+
+  [ natanjunges ]
+  * Add Stremio
+  * Optimize prettylist
+
+  [ Natan Junges ]
+  * Add GPU-Viewer (#282)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Cryptomator (#283)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Xemu (#284)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add KDiskMark (#285)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Typora (#286)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add KopiaUI (#288)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Sleek (#289)
+    * Add Sleek
+    * Improve VERSION_PUBLISHED in deb_sleek
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Only set constant variables in deb_ functions when other variables are not needed (#280)
+    * Only set constant variables in deb_ functions when other variables are not needed
+    * Reduce code repetition in deb_ functions and replace trivial sed commands with tr
+  * Add BitWig Studio (#292)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Delta Chat (#293)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Kingeejit ]
+  * Add OpenAudible #297 (#298)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Adam Collard ]
+  * Keep readme up to date via cog (#300)
+    * Add cog definition for sub-commands help
+    * Cogify - tabs have replaced spaces :/
+    * Add cog definition for package list
+
+  [ Martin Wimpress ]
+  * Update debian/changelog
+  * Update README
+
+  [ Natan Junges ]
+  * Add Blanket (#281)
+    * Add Blanket
+    * Remove Stremio
+  * Add LibreWolf (#287)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add Motrix (#290)
+    * Add Motrix
+    * Improve VERSION_PUBLISHED in deb_motrix
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Kingeejit ]
+  * Added Crossover (#303)
+    * Add Crossover #96
+    * Added Standard-Notes #301
+    * Revert "Added Standard-Notes #301"
+    This reverts commit 65e396a422eea92a5e403bc88c4b597865d9d55d to clean up PR #303
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Added Standard-Notes #301 (#304)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * Update What is acceptable section
+  * Remove CoreCtrl as the PPA includes Mesa and breaks Ubuntu 22.03
+  * Add MakeResolveDeb to related projects
+
+  [ Natan Junges ]
+  * Add Notable (#291)
+
+  [ Kingeejit ]
+  * Added Flameshot #154 (#305)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Fixed package name for gamehub #294 (#306)
+  * Added Bluejeans #58 (#307)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Natan Junges ]
+  * Fix RustDesk (#308)
+  * Use create_cache_dir to elevate privileges and create the cache dir when required (#309)
+  * Use HTTPS whenever possible (#312)
+
+  [ Martin Wimpress ]
+  * Update bitwarden repo. Close #314
+  * ARCHS_SUPPORTED=amd64 is implied
+
+  [ Xmetal ]
+  * Added audio-recorder (#321)
+
+  [ Age Bosma ]
+  * Add Proton Mail Bridge (#317)
+    Closes #111
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Use official name style (#322)
+    This is the new official Proton product name style
+
+  [ Martin Wimpress ]
+  * Ubuntu logo update
+  * Add UPSTREAM_ID and UPSTREAM_CODENAME to support Debian and Ubuntu.
+    Debian and Ubuntu derivatives should all work using the UPSTREAM_ID/CODENAME without having to keep track of derivative codenames in Mint, Zorin, elementary, etc.
+  * Update packages with discrete Debian or Ubuntu support
+  * Hide PPAs from Debian
+  * Hide PPAs from Debian
+  * No need to reference derivative codenames
+  * Only check the UPSTREAM_CODENAMEs for Debian and Ubuntu
+
+  [ Kingeejit ]
+  * Added Papirus Icon Theme (#324)
+    * Implements #310
+    * Hide PPA for Debian users
+
+  [ Martin Wimpress ]
+  * Bump version to 0.3.1
+  * upload (debian/unstable) 0.3.1
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:34 +0530
+
+deb-get (0.3.0-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * Bump version to 0.2.9
+  * deb-get: Add support for Kinetic (22.10)
+
+  [ Doug Hitchcock ]
+  * Add Android Messages Desktop
+
+  [ Ian Sealy ]
+  * deb-get: Add Hugo
+
+  [ Mandy Schoep ]
+  * Added yq
+
+  [ interorbital ]
+  * minor fix: makes is easy" -> "makes it easy"
+
+  [ Arif Ali ]
+  * mattermost-desktop: update to use new download method.
+    Fixes: #243
+
+  [ Doug Hitchcock ]
+  * add YouTube Music Desktop app
+
+  [ Arif Ali ]
+  * mattermost-desktop: don't grab rc packages
+
+  [ Age Bosma ]
+  * Fix Azure Data Studio.
+    See https://github.com/wimpysworld/deb-get/commit/1d66051a120bb4c11133363fc01fd18477e4d47d#commitcomment-73370729
+
+  [ Dreamcat4 ]
+  * /etc/deb-get.d/**/* user includes - initial version
+
+  [ Douglas Hitchcock ]
+  * added mergerfs and check for supported codenames (#246)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Paulo Imon ]
+  * Improve README.md (#275)
+
+  [ Martin Wimpress ]
+  * Add table formatting to prettylist
+
+  [ Mandy Schoep ]
+  * Safing portmaster (#241)
+    * Portmaster
+    * Fix order of README
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Natan Junges ]
+  * Add OpenRGB (#264)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * Add CoreCtrl (#265)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Sonu Lohani ]
+  * Add fsearch app (#271)
+    * Add FSearch app
+    * Update FSearch app details in README.md
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ dbstraffin ]
+  * Add minikube (#273)
+    * Add minikube
+    * Add readme for minikube
+    Co-authored-by: Dennis Straffin <dennis.straffin@oracle.com>
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * Update table of supported packages
+  * Bump version to 0.3.0
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:29 +0530
+
+deb-get (0.2.9-1) stable; urgency=medium
+
+  [ N0rbert ]
+  * fix APT_REPO_URL for influxdata
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:27 +0530
+
+deb-get (0.2.8-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Correct system-monitoring-center
+  * readme: Add In the media
+  * deb-get: Update gitkraken
+  * readme: Update In the media
+  * deb-build: Add deb-build to automate .deb creation of deb-get itself
+  * deb-get: Add brisqi
+  * deb-get: Whitespace clean up
+  * deb-get: Add surfshark-release. Close #170
+  * get-deb: Add nordvpn. Close #151
+  * deb-get: Update NordVPN
+  * deb-get: Update surfshark
+  * readme: update nordvpn and surfshark
+  * deb-get: Add protonvpn. Close #112
+  * deb-get: Add softmaker-office-2021. Close #134
+  * deb-get: Add resilio-sync
+  * deb-get: Add draw.io. Close #59
+  * deb-get: Add telegraf
+  * deb-get: Add influxdb, influxdb2, influxdb2-cli, chronograf and kapacitor
+  * deb-get: Add polychromatic and openrazer-meta
+  * deb-get: Add dustracing2d
+  * readme: Add makedeb to related projects
+  * deb-get: Add obs-cli
+  * deb-get: Add google-chat-electron. Close #114
+  * deb-get: Add strawberry. Close #50
+  * deb-get: Add hyper
+  * deb-get: Add P3X OneNote. Close #88
+  * deb-get: Add ms-office-electron
+  * deb-get: Add geforcenow-electron
+  * deb-get: Add zettlr
+  * deb-get: Add ksnip. Close #153
+  * deb-get: Add shutter-encoder. Close #63
+
+  [ Rahammetoela Toekiman ]
+  * Add Anydesk (#212)
+    * add anydesk to the readme
+    * add anydesk repo
+    * any desk is available as a deb repo
+
+  [ Himadri Sekhar Basu ]
+  * deb-get: add battery-monitor (#214)
+
+  [ Martin Wimpress ]
+  * deb-get: Make shellcheck happy
+  * deb-get: Add parsec
+  * deb-get: Drop incompatible ARCHS_SUPPORTED from battery-monitor
+  * deb-get: Make updates and upgrades a little more verbose
+  * deb-get: If download URL is empty, log which app is affected. #213
+  * deb-get: Add deadbeef. Close #53
+  * readme: Update supported apps
+  * deb-get: Add mpdevil. Close #120
+  * deb-get: Always make sure repos/PPA/keys are removed on uninstall
+  * deb-get: Add user feedback when remove repos/PPAs/keys
+  * github: Add issue_template.md
+  * deb-get: Make update notifications less scary. Close #213
+  * deb-get: Add PeaZip. Close #46
+  * deb-get: Add sejda-desktop. Close #49
+  * Bump version to 0.2.8
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:26 +0530
+
+deb-get (0.2.7-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Request elevated permissions when needed. Close #33. Close #155.
+    This also optimises when the GitHub API is queried to help further prevent exhausting API limits.
+
+  [ Arif Ali ]
+  * vuescan: fix arch recognition
+
+  [ Martin Wimpress ]
+  * deb-get: Update docker-desktop
+  * deb-get: Disable sengi. Close #166.
+    Advertised version is in GitHub releases is 1.1.5 but the version in the .deb package is 1.1.4. 
+  * deb-get: Beautify install, updates and upgrades
+
+  [ Dmitry ]
+  * deb-get: Add ulauncher. Close #172
+
+  [ Gal Buki ]
+  * deb-get: Add picocrypt. Close #167 (#179)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  *  deb-get: Add rustdesk. Close #176 (#178)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Dmitry ]
+  * deb-get: Add Foliate. Close #183 (#184)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * deb-get: Add OBS Studio. Close #174 (#175)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Andreas Wachter ]
+  * added dbeaver-ce (#168)
+    * added dbeaver-ce
+    * added DBeaver to Readme
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Gal Buki ]
+  * deb-get: Add copyq. Close #152 (#180)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+  * deb-get: Add blockbench (#177)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * readme: Update Supported Software
+  * readme: Drop references to sudo as deb-get now elevates permissions when required
+  * deb-get: Describe help and version commands in usage() and README
+  * deb-get: Swallow any stderr output when parsing deb_() functions
+  * deb-get: Consistently use APP variable name, not DEB
+  * deb-get: Add supported for operating on multiple packages at once. Close #158
+  * github: Update Launchpad logo
+  * deb-get: Update docker-desktop
+  * deb-get: Add system-monitoring-center. Close #67
+  * deb-get: Add minigalaxy. Close #163
+  * deb-get: Add gamehub. Close #83
+  * Bump version to 0.2.7
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:22 +0530
+
+deb-get (0.2.6-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * readme: Add Related Projects. Close #60. Close #80
+
+  [ Kurt Smolderen ]
+  * Added support for Tidal-hifi.
+    Tidal-hifi is the web version of listen.tidal.com running in electron with hifi support thanks to widevine.
+
+  [ Martin Wimpress ]
+  * deb-get: Add gh
+  * deb-get: Add a summary for all apps
+  * deb-get: Remove prefixed v from mattermost version. Close #142
+
+  [ Test User ]
+  * Adds expressvpn VPN software
+
+  [ Martin Wimpress ]
+  * deb-get: Add whalebird
+  * gitignore: Ignore rejections.md
+  * readme: Correct expressvpn
+  * deb-get: Add rocketchat. Close #119
+  * deb-get: Add azuredatastudio. Close #118
+  * deb-get: Add whatsapp-for-linux. Close #55
+  * deb-get: Add igdm. Close #79
+  * deb-get: Add cawbird. Close #86
+  * deb-get: Add caprine. Close #51
+  * deb-get: Add sengi. Close #130
+  * Bump version to 0.2.6
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:19 +0530
+
+deb-get (0.2.5-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * readme: Minor updates
+  * readme: Add Azure CLI
+
+  [ TLZ ]
+  * Add vuescan
+
+  [ Nahum Shalman ]
+  * Add Tailscale (#103)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Douglas Hitchcock ]
+  * Added terraform (#117)
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * readme: Add details about how updates works and how to add new packages
+  * readme: Add guidelines for what packages are acceptable for inclusion
+  * deb-get: Update docker-desktop
+  * deb-get: Update tailscale website
+  * deb-get: Add package_is_installed() function as described in #126
+  * deb-get: Refactor to use package_is_installed(). Close #36
+
+  [ Muhammad Atif Ali ]
+  * Added zotero (#105)
+    Added Zotero package.
+    Co-authored-by: Martin Wimpress <304639+flexiondotorg@users.noreply.github.com>
+
+  [ Martin Wimpress ]
+  * readme: Update supported software
+  * Bump version to 0.2.5
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:17 +0530
+
+deb-get (0.2.4-1) stable; urgency=medium
+
+  [ Yannick Mauray ]
+  * Added lutris (#31)
+    * Added lutris
+    * Updated README
+    * Fixed icon
+
+  [ Vincent Vermeulen ]
+  * Fix keepassxc (#37)
+    * deb-get: correct KeyPassXC to KeePassXC
+    * README.md: correct KeyPassXC to KeePassXC
+
+  [ David Goodwin ]
+  * add azure-cli (#39)
+    * add azure-cli
+    * feedback from flexiondotorg - use UBUNTU_CODENAME not lsb_release...
+
+  [ Dominic Hayes - Feren OS Dev ]
+  * Make sure curl is installed before running the curl command (#101)
+    This prepends an extra command to the deb-get-to-install-deb-get installation method to guarantee the user installs curl first in case curl is not installed yet.
+
+  [ Martin Wimpress ]
+  * deb-get: Update docker-desktop to use new download URL
+
+  [ Andrea Pappacoda ]
+  * Support doas
+    doas is a minimal alternative to sudo. It is popular in the BSD world,
+    but some people use it on Linux too as it is simpler to configure and
+    has a smaller attack surface.
+    Also renamed SUDO_HOME to USER_HOME as it's more general and descriptive
+
+  [ Martin Wimpress ]
+  * Bump version to 0.2.4
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:15 +0530
+
+deb-get (0.2.3-1) stable; urgency=medium
+
+  [ Galileo Sartor ]
+  * Add ubuntu-make
+
+  [ Arif Ali ]
+  * deb-get: Add insync (#12)
+
+  [ Yannick Mauray ]
+  * Added teamviewer (#27)
+
+  [ Phil Clifford ]
+  * add Tixati (#28)
+
+  [ Martin Wimpress ]
+  * deb-get: Preserve deb revision in tixati version
+  * deb-get: Use $UBUNTU_CODENAME for insync so it is compatible with Ubuntu derivatives
+  * deb-get: Correct insync website
+  * deb-get: Update ubuntu-make website
+  * readme: Add teamviewer and tixati
+  * deb-get: Change .deb build to use gzip for broader compatibility. Close #29
+  * Bump version to 0.2.3
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:14 +0530
+
+deb-get (0.2.2-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Add prettylist docs
+  * deb-get: Add beersmith3
+  * deb-get: Add lsd
+  * deb-get: Add bat
+  * deb-get: Add git-delta
+  * deb-get: Add fd
+  * deb-get: Add duf
+  * deb-get: Add zenith
+  * deb-get: Add support for Zorin OS
+  * Bump version to 0.2.2
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:12 +0530
+
+deb-get (0.2.1-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * Bump version to 0.2.0
+  * github: Add initial workflows
+  * deb-get: Add mattermost-desktop
+  * deb-get: Better explanation of what deb-get show does
+
+  [ Charles Hood ]
+  * Update deb-get to add support for Cisco Webex (#8)
+    * Update deb-get
+    Add support for Cisco Webex deb
+    * Change how retrieve Webex version
+    Get Webex version number from Release Notes per suggest from Wimpy
+    Add support for Webex (#9)
+    * Update deb-get
+    Add support for Cisco Webex deb
+    * Change how retrieve Webex version
+    Get Webex version number from Release Notes per suggest from Wimpy
+    * Update README.md
+    Add Webex
+    * Update README.md
+    Change icon for Webex to direct
+
+  [ Martin Wimpress ]
+  * deb-get: Use Download instead of Origin for direct downloads
+  * deb-get: Add Quickgui
+  * deb-get: Do not update as part of the upgrade.
+    This is to be consistent with apt-get update / upgrade
+  * readme: Reiterate basic usage
+
+  [ marosg42 ]
+  * Update deb-get to add support for Exodus wallet
+
+  [ Phil Clifford ]
+  * fix jellyfin to install on unsupported releases
+  * add pandoc
+
+  [ Galileo Sartor ]
+  * Add search as action option to parse app
+
+  [ Martin Wimpress ]
+  * deb-get: Ignore Heroic Launcher beta releases
+  * deb-get: Use /etc/os-release to get UBUNTU_CODENAME for derivatives
+  * deb-get: Add TODO to get gpg keys from a keyid
+  * deb-get: Add firefox-esr. Close #16
+  * readme: Update supported apps
+  * deb-get: Add rstudio. Close #17
+
+  [ Galileo Sartor ]
+  * Add jabref installer (#14)
+    * Add jabref installer
+    * add supported arch
+    * Add to readme
+    * Switch to github for jabref deb
+    * Fix jabref name and url
+
+  [ Martin Wimpress ]
+  * deb-get: Refactor jabref
+  * deb-get: White space clean up
+  * Bump version to 0.2.1
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:11 +0530
+
+deb-get (0.2.0-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Add 1password. Close #5
+  * deb-get: Include deb package name in prettylist
+  * deb-get: Catch failures when updating GitHub releases. Close #6
+  * deb-get: Add trivy
+  * deb-get: Add syft
+  * deb-get: Add grype
+  * deb-get: Automatically derive the install method
+  * deb-get: Add icons to denote download method to pretty_list
+  * deb-get: Add line breaks to pretty_list
+  * deb-get: Add support for Launchpad PPAs
+  * deb-get: Add quickemu
+  * deb-get: Add nextcloud-desktop
+  * deb-get: Add keypassxc
+  * deb-get: Remove apt signing keys when removing a .deb
+  * readme: Minor update
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:08 +0530
+
+deb-get (0.1.5-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * readme: Update rationale
+  * deb-get: Make deb-get list more useful by showing the package status
+  * deb-get: Simplify zoom by unrolling URLs
+  * deb-get: Remove unnecessary unroll_url in discord
+  * deb-get: Correct all the get-deb typos.
+    I suck!
+  * Bump version to 0.1.5
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:07 +0530
+
+deb-get (0.1.4-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * readme: Update supported apps
+  * deb-get: Add atom
+  * deb-get: Add enpass
+  * deb-get: Add website URLs for all apps
+  * deb-get: Provide more detail via deb-get show
+  * deb-get: Add pretty names for all apps
+  * deb-get: Add prettylist generator and add pretty names to deb-get show
+  * readme: Add pretty list of supported apps
+  * deb-get: Add rclone
+  * deb-get: Add support for gpg keyrings
+  * deb-get: Add support for element-desktop
+  * deb-get: Add support for jami
+  * readme: Update list of supported apps
+  * deb-get: Make sure the keyrings directory exists
+  * deb-get: Add weechat
+  * deb-get: Correctly template element-desktop and jami keyrings
+  * deb-get: Add codium
+  * deb-get: Add micro
+  * deb-get: Add obsidian
+  * deb-get: Add ludo
+  * deb-get: Migrate incorrect cache directory
+  * Bump version to 0.1.4
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:05 +0530
+
+deb-get (0.1.3-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Fixed the very obvious typo
+  * Bump version to 0.1.3
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:03 +0530
+
+deb-get (0.1.2-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * readme: Make the install instructions more prominent. Close #1
+  * deb-get: Add onlyoffice-desktopeditors. Close #3
+  * get-deb: Add powershell. Close #4
+  * get-deb: Add dropbox. Close #2
+  * readme: Update supported apps
+  * Bump version to 0.1.2
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:02 +0530
+
+deb-get (0.1.1-1) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * get-deb: Add self install
+  * Bump version to 0.1.1
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:05:01 +0530
+
+deb-get (0.1.0-2) stable; urgency=medium
+
+  [ Martin Wimpress ]
+  * deb-get: Add stub
+  * Update README
+  * github: Add project assets
+  * Update README
+  * get-deb: 0.1.0 beta
+  * Update README
+  * git: Update .gitignore
+  * debian: Add initial packaging
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Wed, 27 Aug 2025 15:04:59 +0530
 
 deb-get (0.1.0-1) unstable; urgency=medium
 
